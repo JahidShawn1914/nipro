@@ -1,0 +1,240 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .cm-b {
+        margin-bottom: 50px;
+    }
+    /* header start */
+    header{
+        margin: 0;
+    }
+    header h1 a{
+        font-size: 20px;
+    }
+    .menu ul li a{
+        padding: 10px 0 0 !important;
+        text-align: end;
+    }
+    .dropdown{
+        text-align: end;
+    }
+    .navbar-nav .dropdown-menu {
+        position: inherit;
+        top: 0px;
+        left: 20px;
+    }
+    .btn-dd{
+        width: 250px;
+    }
+    /* banner */
+     .slider {
+        margin: 30px 0;
+    }
+    .slider h1 {
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .slider p {
+        margin-bottom: 30px;
+        word-spacing: 2px;
+        line-height: 20px;
+    }
+    .li-btn{
+        padding: 5px 8px;
+        font-weight: 400;
+    }
+    .li-btn i{
+        margin-left: 5px;
+    }
+    /* welcome */
+    .w-sp{
+        height: 40px;
+    }
+    .welcome h1{
+        margin: 10px 0 15px;
+        font-size: 28px;
+    }
+    /* service start */
+   .item {
+    margin-top: 50px;
+    padding: 20px 25px;
+    }
+    /* about */
+    .about{
+        text-align: center;
+    }
+    .about h1{
+        margin-top: 50px;
+    }
+    .about p{
+        margin: 35px 0 0;
+    }
+    .c-p{
+        margin-bottom: 50px !important;
+    }
+    /* portfolio */
+    .portfolio{
+        padding-bottom: 50px;
+    }
+    .portfolio ul li a {
+        padding: 5px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cm-b {
+        margin-bottom: 50px;
+    }
+    /* header start */
+    header{
+        margin: 0;
+    }
+    header h1 a{
+        font-size: 22px;
+    }
+    .menu ul li a{
+        padding: 10px 0 0 !important;
+        text-align: end;
+    }
+    .dropdown{
+        text-align: end;
+    }
+    .navbar-nav .dropdown-menu {
+        position: inherit;
+        top: -37px;
+        left: 130px;
+    }
+    /* banner */
+     .slider {
+        margin: 150px 0 145px;
+    }
+    .slider h1 {
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+    .slider p {
+        margin-bottom: 30px;
+        word-spacing: 2px;
+        line-height: 25px;
+    }
+    .slider a{
+        padding: 10px 15px;
+        font-weight: 400;
+    }
+    .slider a i {
+        margin-left: 10px;
+    }
+    /* welcome */
+    .welcome h1{
+        margin: 10px 0 30px;
+    }
+    /* service start */
+    .item {
+        margin-top: 50px;
+    }
+    /* about */
+    .about{
+        text-align: center;
+    }
+    .about h1{
+        margin-top: 50px;
+    }
+    .about p{
+        margin: 35px 0 0;
+    }
+    .c-p{
+        margin-bottom: 50px !important;
+    }
+    /* portfolio */
+    .portfolio{
+        padding-bottom: 50px;
+    }
+    .portfolio ul li a {
+        padding: 5px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cm-b {
+        margin-bottom: 80px;
+    }
+    /* header start */
+    header{
+        margin: 0;
+    }
+    .menu ul li a{
+        padding: 10px 0 0 !important;
+        text-align: end;
+    }
+    .dropdown{
+        text-align: end;
+    }
+    .navbar-nav .dropdown-menu {
+        position: inherit;
+        top: -37px;
+        left: 310px;
+    }
+    /* banner */
+    .slider {
+        margin: 170px 0 150px;
+    }
+    .slider h1 {
+        font-size: 50px;
+    }
+    .slider a{
+        padding: 10px 20px;
+        font-weight: 400;
+    }
+    /* service */
+   .item {
+        margin-top: 50px;
+        padding: 20px 25px;
+    }
+    /* about */
+    .about{
+        text-align: center;
+    }
+    .about h1{
+        margin-top: 50px;
+    }
+    .about p{
+        margin: 35px 0 0;
+    }
+    .c-p{
+        margin-bottom: 50px !important;
+    }
+    /* portfolio */
+    .portfolio{
+        padding-bottom: 80px;
+    }
+    .h-icon{
+        top: 30%;
+    }
+    .text{
+        padding: 5px 10px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about p {
+        margin: 10px 0 10px;
+    }
+    .li-c-btn{
+        padding: 5px 8px;
+        font-weight: 400;
+    }
+    .li-c-btn i{
+        margin-left: 5px;
+    }
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+
+}

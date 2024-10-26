@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* common Start */
+:root{
+    --rob: "Roboto", sans-serif;
+    --lato: "Lato", sans-serif;
+    --black: #333333;
+    --ash: #8e8e8e;
+}
+body{
+    font-family: var(--lato);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+}
+.cm-b{
+    margin-bottom: 100px;
+}
+/* common End */
+
+/* header start */
+header{
+    margin: 5px 0 10px;
+}
+header h1 a{
+    font-family: var(--lato);
+    font-size: 30px !important;
+    font-weight: 500;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    padding: 0 20px !important;
+    transition: .33s;
+}
+.menu ul li a:hover{
+    color: var(--black) !important;
+}
+.btn-search{
+    color: var(--ash);
+    border: none;
+}
+.btn-search::after{
+    display: none;
+}
+.btn-dd{
+    width: 300px;
+}
+
+.btn-dd[data-bs-popper] {
+    top: 40px;
+    left: -255px;
+}
+.btn-dd input{
+    border: none;
+}
+.btn-dd button{
+    background: transparent;
+    border: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.c-nav:focus {
+    box-shadow: none;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider{
+    margin: 210px 0 200px;
+    color: white;
+}
+.slider h1{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 700;
+}
+.slider p{
+    margin-bottom: 50px;
+    font-family: var(--rob);
+    word-spacing: 5px;
+    line-height: 30px;
+}
+.li-btn{
+    padding: 15px 30px;
+    font-family: var(--rob);
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+}
+.li-btn i{
+    margin-left: 20px;
+}
+.s-btn{
+    font-family: var(--rob);
+    color: var(--ash);
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    transition: .33s;
+}
+.s-btn:hover{
+    color: var(--black);
+}
+.c-sp{
+    color: var(--black);
+}
+/* banner end */
+
+/* welcome start */
+.welcome{
+    text-align: center;
+}
+.w-sp{
+    height: 55px;
+    border: 1px solid;
+    color: var(--black);
+    display: inline-block;
+}
+.welcome h1{
+    margin: 15px 0 45px;
+    font-size: 30px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.welcome p{
+    font-family: var(--rob);
+    line-height: 30px;
+}
+/* welcome end */
+
+/* service start */
+.item {
+    margin-top: 100px;
+    padding: 20px 10px;
+    border: 1.5px solid var(--ash);
+    text-align: center;
+    position: relative;
+    transition: .33s;
+}
+.item:hover{
+    border: 1.5px solid var(--black);
+}
+.item-icon {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 5px 10px;
+}
+.item-title {
+    margin: 50px 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.i-sp{
+    margin-bottom: 10px;
+    width: 55px;
+    border: 1px solid;
+    display: inline-block;
+}
+.item-text {
+    margin-bottom: 30px;
+    color: var(--ash);
+}
+.item-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: var(--rob);
+    font-weight: 500;
+    color: var(--ash);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .33s;   
+}
+.item-link i{
+    margin-left: 10px;
+}
+.item-link:hover{
+    color: var(--black);
+}
+/* service end */
+
+/* about start */
+.about h1{
+    font-size: 30px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.about p{
+    margin: 35px 0 87px;
+    font-family: var(--rob);
+}
+.li-c-btn{
+    border: 1px solid;
+}
+/* about end */
+
+/* portfolio start */
+.portfolio{
+    padding-bottom: 100px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.portfolio h1{
+    margin: 25px 0 100px;
+    font-size: 30px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.portfolio ul li a{
+    padding: 10px;
+    font-family: var(--rob);
+    font-weight: 500;
+    color: var(--ash);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: .33s;
+}
+.portfolio ul li a:hover{
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+.p-img {
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    display: block;
+    transition: 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 12px;
+    right: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.p-img:hover .overlay {
+    opacity: 1;
+}
+.h-icon{
+    position: relative;
+    top: 35%;
+}
+
+.text{
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff;
+    color: var(--black);
+}
+.text p{
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+}
+/* portfolio end */
+
+/* why choose start */
+.why{
+    text-align: center;
+}
+.why h1{
+    margin: 25px 0 50px;
+    font-size: 30px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.w-item{
+    margin: 50px 0;
+    border-bottom: 1px solid var(--ash);
+}
+.why h2{ 
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--ash);
+    text-align: left;
+    text-transform: uppercase;
+}
+.why h2 img{
+    margin-right: 10px;
+}
+.why p{
+    padding: 40px 0 30px;
+    font-family: var(--rob);
+    text-align: left;  
+}
+/* why choose end */
